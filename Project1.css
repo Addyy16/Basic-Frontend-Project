@@ -1,0 +1,125 @@
+body{
+    height: 2000px;
+}
+
+.container {
+    /* background-color: black; */
+    display: flex;
+    /* border: 2px solid black; */
+    height: 90px;
+    width: 1400px;
+    justify-content: flex-start;
+    position: sticky;
+    left: 82px;
+
+}
+
+.btn {
+    background-color: #725CAD;
+    color: white;
+    text-align: center;
+    border: 1px solid black;
+    /* padding-left: 10px; */
+    padding-top: 12px;
+    border-radius: 10px;
+
+    /* padding: 10px; */
+    /* margin: 2px; */
+    /* justify-content: center; */
+}
+
+#contact {
+    height: 38px;
+    width: 100px;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+
+#services {
+    height: 38px;
+    width: 200px;
+    position: absolute;
+    top: 580px;
+    left: 85px;
+}
+
+
+.navbar {
+    display: flex;
+    /* border: 2px solid black; */
+    margin: 2px;
+    height: 50px;
+    width: 500px;
+    justify-content: flex-start;
+    position: relative;
+    top: 18px;
+}
+
+.items {
+    /* border: 2px solid black; */
+    margin: 10px;
+    height: 25px;
+    width: 58px;
+
+}
+
+a.menu {
+    text-decoration: none;
+    color: #808080;
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+p#head {
+    color: #222949;
+    width: 335px;
+    font-size: 50px;
+    text-align: left;
+    position: absolute;
+    top: 206px;
+    left: 82px;
+    font-family: cursive;
+
+}
+
+b#select {
+    color: #725CAD;
+}
+
+p#para {
+    color: #222949;
+    width: 335px;
+    font-size: 15px;
+    text-align: left;
+    position: absolute;
+    top: 470px;
+    left: 82px;
+    font-family: cursive;
+}
+
+div#ig {
+    position: absolute;
+    left: 750px;
+    top: 150px;
+}
+
+a.button {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+img#bgi {
+    position: absolute;
+    right: 10px;
+    top: 200px;
+    height: 650px;
+}
+
+a.button:hover {
+    text-decoration: underline;
+}
